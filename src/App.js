@@ -9,7 +9,7 @@ function App() {
     setIsDarkTheme(!isDarkTheme);
   };
 
-  const themeStyle = {
+  const themeStyle = { 
     backgroundColor: isDarkTheme ? "black" : "white",
     color: isDarkTheme ? "white" : "black",
   };
